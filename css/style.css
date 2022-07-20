@@ -11,7 +11,7 @@ body h1{
     display: flex;
     justify-content: center;
     gap: 50px;
-    padding: 10px;
+    padding: 50px;
 }
 .left,.right{
     margin: 0 auto;
@@ -44,5 +44,6 @@ i{
 @media screen and (max-width: 768px) {
     .container{
         flex-direction: column;
+        padding: 0;
     }
 }
