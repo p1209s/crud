@@ -22,7 +22,7 @@ body h1{
 }
 
 textarea{
-    width: 97.25%;
+    width: 100%;
     resize: none;
 }
 
@@ -47,7 +47,10 @@ i{
 
 @media screen and (max-width: 768px) {
     .container{
-        width: 60%;
         flex-direction: column;
+        padding: 0 50px;
+    }
+    textarea{
+        width: 97%;
     }
 }
