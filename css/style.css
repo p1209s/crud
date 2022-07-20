@@ -46,8 +46,9 @@ i{
 
 @media screen and (max-width: 768px) {
     .container{
+        width: 100%;
         flex-direction: column;
-        padding: 0;
+        padding: 10px;
     }
     .left,.right{
         margin: 0;
