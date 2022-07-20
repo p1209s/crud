@@ -2,9 +2,13 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0 50px;
 }
-
+body h1{
+    text-align: center;
+    margin: 50px auto;
+}
 .container{
     display: flex;
+    justify-content: center;
     gap: 50px;
 }
 
